@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Backend Developer Technical Assessment - Data Pipeline
 
 A production-grade data pipeline implementation with comprehensive error handling, logging, and validation.
@@ -77,59 +76,6 @@ docker-compose down
 - FastAPI Docs: http://localhost:8000/docs
 - PostgreSQL: localhost:5432
 
-### Option 2: Local Development (with Virtual Environment) 💻
-
-Run Flask and FastAPI locally with virtual environment. **Requires PostgreSQL running locally.**
-
-#### Step 1: Setup Virtual Environment
-
-**Windows (PowerShell):**
-```powershell
-# Setup virtual environment (one-time)
-.\setup_venv.ps1
-
-# Activate virtual environment
-.\venv\Scripts\Activate.ps1
-```
-
-**Linux/Mac:**
-```bash
-# Make scripts executable (one-time)
-chmod +x setup_venv.sh run_local.sh test_api.sh
-
-# Setup virtual environment (one-time)
-./setup_venv.sh
-
-# Activate virtual environment
-source venv/bin/activate
-```
-
-#### Step 2: Setup PostgreSQL Database
-
-```sql
--- Connect to PostgreSQL
-psql -U postgres
-
--- Create database
-CREATE DATABASE customer_db;
-
--- Exit
-\q
-```
-
-#### Step 3: Run Servers
-
-**Option A: Automated (Both servers together)**
-
-**Windows:**
-```powershell
-.\run_local.ps1
-```
-
-**Linux/Mac:**
-```bash
-./run_local.sh
-```
 
 **Option B: Manual (Separate terminals)**
 
@@ -550,6 +496,3 @@ Backend Developer Technical Assessment Solution
 ---
 
 **Need Help?** Check the documentation files or open an issue!
-=======
-# Flask-X-FastAPI
->>>>>>> 02fc7b7c340972503dd95b3fa4cf8a76d11187ad
