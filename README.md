@@ -428,14 +428,6 @@ taskkill /F /IM python.exe
 pkill -f "python app.py"
 pkill -f "uvicorn"
 ```
-
-## 📚 Additional Documentation
-
-- **[TESTING.md](TESTING.md)** - Comprehensive testing guide with all test cases
-- **[ARCHITECTURE.md](ARCHITECTURE.md)** - Detailed architecture and design decisions
-- **[LOCAL_SETUP.md](LOCAL_SETUP.md)** - Complete local development setup guide
-- **[.env.example](.env.example)** - Environment variables reference
-
 ## Development
 
 ### Rebuild after code changes
