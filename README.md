@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Backend Developer Technical Assessment - Data Pipeline
 
 A production-grade data pipeline implementation with comprehensive error handling, logging, and validation.
@@ -549,3 +550,6 @@ Backend Developer Technical Assessment Solution
 ---
 
 **Need Help?** Check the documentation files or open an issue!
+=======
+# Flask-X-FastAPI
+>>>>>>> 02fc7b7c340972503dd95b3fa4cf8a76d11187ad
